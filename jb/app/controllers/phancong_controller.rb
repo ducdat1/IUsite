@@ -1,0 +1,2 @@
+class PhancongController < ApplicationController
+end

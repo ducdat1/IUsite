@@ -1,0 +1,61 @@
+/* liScroll styles */
+
+.tickeroverlay-left{
+	
+}
+	
+.tickeroverlay-right{
+	
+}
+.tickercontainer { /* the outer div */
+position: absolute;
+left: 60px;
+width: 638px;
+height: 20px; 
+margin: 0; 
+padding: 0;
+overflow: hidden; 
+float: right;
+margin-left: 10px;
+background-image: url('design/tk_bg.png');
+background-repeat: repeat;
+
+
+}
+ul.newsticker { /* that's your list */
+position: relative;
+margin-left: 20px;
+list-style-type: none;
+margin-top: 4px;
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding-right: 15px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+
+color: #E2601E;
+/*background: #fff;*/
+}
+ul.newsticker a {
+white-space: nowrap;
+padding: 0;
+padding-bottom: 5px;
+font-size: 12px;
+margin-bottom: 5px;
+} 
+ul.newsticker span {
+margin: 0 10px 0 0;
+} 
+
+#webticker2{
+	float:right;
+}
+
+#webticker2 li {
+float: right; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding-left: 15px;
+/*background: #fff;*/
+}

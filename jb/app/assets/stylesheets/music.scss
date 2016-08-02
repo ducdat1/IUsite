@@ -1,0 +1,21 @@
+#music-box{
+	position: fixed;
+	bottom: 0%;
+	right:17%;
+	z-index: 99999;
+	width: 350px;
+	audio{
+		width: 350px;
+		height:30px;
+		margin-bottom: 5px;
+	}
+	#playlist{
+		color: silver;
+		margin: 0px;
+		list-style: none;
+		background-color: rgba(0,0,0,0.4);
+		li a{
+			color:silver;
+		}
+	}
+}

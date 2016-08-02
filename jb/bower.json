@@ -1,0 +1,20 @@
+{
+  "name": "jb",
+  "homepage": "https://github.com/trunglecs/laws",
+  "authors": [
+    "ducdat1 <kisybongdem22@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-token-auth": "^0.0.29"
+  }
+}

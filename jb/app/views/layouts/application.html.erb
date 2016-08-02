@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<htFansite>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IU's fansite</title>
+		<%= stylesheet_link_tag    'application', media: 'all' %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body id="top" ng-app="myApp"  ng-controller="myCtrl"  class="my-scroll-area" ng-nicescroll nice-option="{cursorcolor: '#e2edff'}" nice-scroll-end="endScroll()">
+		<!-- <nav-bar></nav-bar>
+		<div class = "container-fluid main">
+			<div class ="tone"></div>
+			<div id = "slide"></div>
+		</div> -->
+		<%= yield %>
+		<!-- <div ng-view="" id="ng-view"></div>
+		<music></music>
+		<footer></footer> -->
+		<%= javascript_include_tag 'application'%>
+	</body>
+
+</html>

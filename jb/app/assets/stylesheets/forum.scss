@@ -1,0 +1,38 @@
+#pageheader{
+	.header{
+		position: relative;
+		width:83.3333333%;
+		margin-left:8.3333333%;
+		float: left;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+#pagecontent{
+	.main{
+		position: relative;
+		width:83.3333333%;
+		margin-left:8.3333333%;
+		float: left;
+		display: block;
+		margin-bottom: 20px;
+		.box-infor-page{
+			position: relative;
+			width: 25%;
+			float:left;
+			padding-left: 10px;
+
+		}
+		.image-page{
+			position: relative;
+			width: 75%;
+			float: left;
+			padding-left: 10px;
+		}
+		.page-main{
+			position: relative;
+			width: 100%;
+			display: block;
+		}
+	}
+}

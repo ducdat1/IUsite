@@ -1,0 +1,24 @@
+#new{
+	z-index: 999;
+	position: fixed;
+	height: 100%;
+	width: 98%;
+	color:  white;
+	.content{
+		position: fixed;
+		margin-top: 60px;
+		left: 4%;
+		height: 85%;
+		background-color: rgba(0,0,0,0.4);
+		text-shadow: black 1px 1px 1px;
+		opacity: 0.8;
+		.title-new{
+			text-align: center;
+			font-style: oblique;
+			font-size: 23px;
+		}
+		.box-new{
+			height: 92%;
+		}
+	}
+}

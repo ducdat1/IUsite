@@ -1,0 +1,61 @@
+#vid-content{
+	position: fixed;
+	z-index: 999;
+	margin-top: 70px;
+	background-color: rgba(0,0,0,0.4);
+	width: 98%;
+	padding: 0;
+	.video-content{
+		position: relative;
+	}
+	.playlist{
+		position: relative;
+		height: auto;
+		min-height: 400px;
+		max-height: 600px;
+		margin-top: 15px;
+		li.videorelated{
+			list-style: none;
+			margin-bottom: 20px;
+			cursor: pointer;
+			.boxvideo{
+				height: 80px;	
+				img{
+					float: left;
+					vertical-align: middle;
+					width: auto;
+					height: auto;
+					max-height: 80px;
+					max-width:120px;
+				}
+				.titlerelated{
+					position: relative;
+					width: 65%;
+					float:left;
+					display: block;
+					margin-left: 10px;
+					font-family: Roboto,arial,sans-serif;
+					color: white !important;
+					.related-titlere{
+						display: block;
+						font-size: 15px;
+						word-wrap:break-word;
+						line-height: 1.2;
+						max-height: 2.4em;
+						margin-bottom: 3px;
+					}
+					.related-uploader{
+						display: block;
+						font-size: 11px;
+						opacity:0.8;
+					}
+					.related-view{
+						display: block;
+						font-size: 11px;
+						opacity:0.8;
+					}
+				}
+			}
+		}
+	}
+}
